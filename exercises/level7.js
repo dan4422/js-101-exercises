@@ -4,3 +4,15 @@
 // integer return an empty array
 //
 // Name the function "finalFunction"
+
+function finalFunction(number) {
+    const empty = [];
+    if (number > 0) {
+        for (let i = 0; i < number; i++) {
+            empty.push('hello')
+        }
+    } else {
+        return empty
+    }
+    return empty
+}

@@ -14,12 +14,17 @@ function lvl6exercise1 (num) {
 function lvl6exercise2 () {
   // Push 10 'hello' strings into the array using a for loop, then return it
   var arr = []
-  for (arr.push('hello')) {
-    
+  for (let count = 0; count < 10; count++) {
+    arr.push('hello')
   }
-}
+  return arr
+  }
 
 function lvl6exercise3 () {
   // Empty this array using a while loop and return it
   var arr = ['hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello', 'hello']
+  while (arr.length > 0) {
+    arr.pop('hello')
+  }
+  return arr
 }
